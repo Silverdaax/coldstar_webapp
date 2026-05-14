@@ -1,4 +1,7 @@
 import { ListButtons } from "./Landing.styles"
+import TableIcon from "../assets/Table.png";
+import StarIcon from "../assets/Star.png";
+import InfoIcon from "../assets/circle_i_icon.png";
 
 export default function Landing() {
     return (
@@ -39,7 +42,7 @@ export default function Landing() {
                     }}
                 >
                     <img
-                        src="circle_i_icon.png"
+                        src={InfoIcon}
                         alt="info icon"
                         style={{
                             width: "36px",
@@ -78,7 +81,7 @@ export default function Landing() {
                 onClick={() => console.log("create new list clicked")}
             >
                 <img
-                    src="Table.png"
+                    src={TableIcon}
                     style={{ width: "18px", height: "18px" }}
                 />
 
@@ -93,7 +96,7 @@ export default function Landing() {
                 border="1px solid darkgrey"
                 disabled
             >
-                <img src="Star.png" />
+                <img src={StarIcon} />
 
                 <div
                     style={{
