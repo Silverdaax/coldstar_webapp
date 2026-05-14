@@ -1,7 +1,7 @@
 import { ListButtons } from "./Landing.styles"
-import TableIcon from "../assets/Table.png";
-import StarIcon from "../assets/Star.png";
-import InfoIcon from "../assets/circle_i_icon.png";
+import TableIcon from "../../assets/Table.png";
+import StarIcon from "../../assets/Star.png";
+import InfoIcon from "../../assets/circle_i_icon.png";
 
 export default function Landing() {
     return (
